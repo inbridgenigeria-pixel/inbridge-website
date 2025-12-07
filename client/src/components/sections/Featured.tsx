@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import { useState } from "react";
-import ilmeniteImg from "@assets/generated_images/ilmenite_ore_pile_minerals.png";
-import flexpipeImg from "@assets/generated_images/flexpipe_installation_swampy_terrain.png";
+import ilmeniteImg from "@assets/generated_images/ilmenite_ore_loading_into_ship.png";
+import flexpipeImg from "@assets/generated_images/flexpipe_spooled_installation_trench.png";
 
 export function Featured() {
   const [featured, setFeatured] = useState<"ilmenite" | "flexpipe">("ilmenite");
@@ -75,7 +75,7 @@ export function Featured() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-slate-200">
                 <img
                   src={ilmeniteImg}
-                  alt="Ilmenite ore pile"
+                  alt="Ilmenite ore loading into ship"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent pointer-events-none" />
@@ -125,7 +125,7 @@ export function Featured() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-slate-200">
                 <img
                   src={flexpipeImg}
-                  alt="Flexpipe installation in swampy terrain"
+                  alt="Flexpipe spooled installation in trench"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent pointer-events-none" />
