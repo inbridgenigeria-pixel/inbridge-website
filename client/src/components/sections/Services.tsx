@@ -1,22 +1,42 @@
 import { motion } from "framer-motion";
-import { Settings, Zap, Pickaxe } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+
+const EPCIcon = () => (
+  <svg width="22" height="22" viewBox="0 0 24 24" stroke="currentColor" fill="none" strokeWidth="2">
+    <path d="M14 2l-2 2-2-2M2 14l2-2-2-2M22 14l-2-2 2-2"/>
+    <circle cx="12" cy="12" r="3"/>
+    <path d="M12 15v6M12 3v6M3 12h6M15 12h6"/>
+  </svg>
+);
+
+const EnergyIcon = () => (
+  <svg width="22" height="22" viewBox="0 0 24 24" stroke="currentColor" fill="none" strokeWidth="2">
+    <path d="M13 2L3 14h9l-1 8 10-12h-9z"/>
+  </svg>
+);
+
+const MineralIcon = () => (
+  <svg width="22" height="22" viewBox="0 0 24 24" stroke="currentColor" fill="none" strokeWidth="2">
+    <path d="M2 22l6-6M6 18l4 4M22 2l-6 6M18 6l4 4"/>
+    <path d="M14 10l-4 4"/>
+  </svg>
+);
 
 export function Services() {
   const pillars = [
     {
-      icon: Settings,
+      icon: EPCIcon,
       title: "EPC Services",
       subtitle: "Engineering, Procurement & Construction",
       items: [
         "Brownfield & greenfield oil and gas projects",
         "Pipelines, terminals, utilities and process plants",
-        "Project management, construction supervision"
+        "Project management, construction supervision & commissioning"
       ]
     },
     {
-      icon: Zap,
+      icon: EnergyIcon,
       title: "Energy Solutions",
       subtitle: "Gas & Power Infrastructure",
       items: [
@@ -26,7 +46,7 @@ export function Services() {
       ]
     },
     {
-      icon: Pickaxe,
+      icon: MineralIcon,
       title: "Mineral Exports",
       subtitle: "Ilmenite & Strategic Minerals",
       items: [
@@ -59,7 +79,7 @@ export function Services() {
               <Card className="h-full hover:shadow-lg transition-all duration-300 border-slate-200">
                 <CardHeader>
                   <div className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-primary mb-4">
-                    <pillar.icon className="w-6 h-6" />
+                    <pillar.icon />
                   </div>
                   <CardTitle className="text-xl text-primary">{pillar.title}</CardTitle>
                   <p className="text-sm font-semibold text-slate-700">{pillar.subtitle}</p>
