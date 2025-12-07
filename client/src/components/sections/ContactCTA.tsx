@@ -20,67 +20,54 @@ export function ContactCTA() {
   };
 
   return (
-    <section id="contact-cta" className="py-24 bg-gradient-to-br from-slate-900 to-blue-900 text-white text-center relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
-      
-      <div className="container mx-auto px-6 relative z-10">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Discuss a Project or Shipment?</h2>
-        <p className="text-blue-100 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-          Tell us about your EPC scope, energy challenge or mineral requirement and our team will respond
-          with a tailored proposal or quotation.
+    <section id="contact-cta" className="py-16 bg-gradient-to-br from-slate-900 to-blue-900 text-white">
+      <div className="container mx-auto px-6 text-center">
+        <h2 className="text-3xl font-bold mb-4">Ready to Discuss a Project or Shipment?</h2>
+        <p className="text-slate-300 mb-8 max-w-2xl mx-auto">
+          Submit your requirements and our team will respond with a tailored proposal.
         </p>
-        
-        <div className="flex flex-wrap justify-center gap-4 mb-10">
-          <Button size="lg" variant="secondary" className="rounded-full px-8 text-primary font-bold">
-            <a href="#contact-form">Contact / Request a Quote</a>
-          </Button>
-        </div>
 
         <form 
-          id="contact-form"
           onSubmit={handleSubmit}
-          className="max-w-[540px] mx-auto text-left bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10"
+          className="max-w-[520px] mx-auto text-left"
         >
-          <div className="mb-6">
-            <label className="block text-white font-semibold mb-2">Name</label>
+          <div className="mb-4">
+            <label className="block text-sm font-semibold mb-1">Name</label>
             <input
               type="text"
               name="name"
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 rounded-lg border border-white/20 bg-white/10 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-blue-400"
-              placeholder="Your name"
+              className="w-full px-3 py-2 rounded-lg bg-white text-slate-900 border-0 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
           </div>
 
-          <div className="mb-6">
-            <label className="block text-white font-semibold mb-2">Email</label>
+          <div className="mb-4">
+            <label className="block text-sm font-semibold mb-1">Email</label>
             <input
               type="email"
               name="email"
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 rounded-lg border border-white/20 bg-white/10 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-blue-400"
-              placeholder="your@email.com"
+              className="w-full px-3 py-2 rounded-lg bg-white text-slate-900 border-0 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
           </div>
 
-          <div className="mb-8">
-            <label className="block text-white font-semibold mb-2">Project / Mineral Requirement</label>
+          <div className="mb-6">
+            <label className="block text-sm font-semibold mb-1">Project / Mineral Requirement</label>
             <textarea
               name="requirement"
               value={formData.requirement}
               onChange={handleChange}
               required
               rows={4}
-              className="w-full px-4 py-3 rounded-lg border border-white/20 bg-white/10 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none"
-              placeholder="Describe your project scope or mineral requirement..."
+              className="w-full px-3 py-2 rounded-lg bg-white text-slate-900 border-0 focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none"
             />
           </div>
 
-          <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg">
+          <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2">
             Submit Inquiry
           </Button>
         </form>

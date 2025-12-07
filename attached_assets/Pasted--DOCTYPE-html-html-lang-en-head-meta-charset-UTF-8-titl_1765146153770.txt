@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About Us | Inbridge Nigeria Ltd</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      color: #1f2933;
+      margin: 0;
+      line-height: 1.6;
+    }
+    header {
+      background:#0f172a;
+      color:#fff;
+      padding:1.2rem 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 0 1.5rem;
+    }
+    h1, h2 { color:#0c3c78; }
+    .section { padding:3rem 0; }
+    footer {
+      background:#020617;
+      color:#9ca3af;
+      padding:1.4rem 0;
+      font-size:0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <strong>INBRIDGE NIGERIA LTD</strong>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h1>About Inbridge Nigeria Ltd</h1>
+    <p>
+      Inbridge Nigeria Ltd is a technology-driven Engineering, Procurement and Construction (EPC),
+      energy solutions and mineral export company focused on delivering critical infrastructure
+      and reliable supply chains from Nigeria to global markets.
+    </p>
+
+    <p>
+      We combine deep technical expertise with strong commercial understanding of the African
+      energy landscape to execute projects safely, efficiently and in line with international standards.
+    </p>
+  </div>
+</section>
+
+<section class="section" style="background:#f7f7fb;">
+  <div class="container">
+    <h2>Our Mission</h2>
+    <p>
+      To be a trusted EPC and energy partner delivering safe, efficient and commercially attractive
+      projects while supporting reliable exports of strategic minerals.
+    </p>
+
+    <h2>Our Vision</h2>
+    <p>
+      To build a leading African engineering and energy services platform recognised globally
+      for execution excellence, integrity and innovation.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>What Differentiates Us</h2>
+    <ul>
+      <li>Strong EPC project execution discipline</li>
+      <li>Deep understanding of Nigeria’s energy and regulatory environment</li>
+      <li>Integrated energy and mineral export capabilities</li>
+      <li>Technology and data-driven project delivery approach</li>
+      <li>Commitment to safety, quality and compliance</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Leadership</h2>
+    <p>
+      Inbridge is led by engineers and project professionals with over a decade of experience
+      delivering complex oil & gas, energy and infrastructure projects across Africa.
+    </p>
+
+    <p>
+      <strong>Ikiomoworio Dienagha</strong><br>
+      Founder & Principal Project Engineer
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    &copy; <span id="year"></span> Inbridge Nigeria Ltd
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
