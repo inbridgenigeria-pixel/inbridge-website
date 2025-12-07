@@ -85,7 +85,7 @@ export function Hero() {
                 {[
                   "EPC scopes: pipelines, terminals, utilities",
                   "Energy solutions: gas monetization, power systems",
-                  "Minerals: ilmenite (TiO₂ 50%) and exports"
+                  "Minerals: ilmenite (TiO₂ >50%) and exports"
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-blue-400 shrink-0" />

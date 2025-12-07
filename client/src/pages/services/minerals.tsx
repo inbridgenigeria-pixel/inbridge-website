@@ -59,7 +59,7 @@ export default function MineralExports() {
                 <h3 className="text-2xl font-bold text-primary mb-6">Product Specs</h3>
                 <ul className="space-y-4">
                   {[
-                    "TiO₂ content: Minimum 50%",
+                    "TiO₂ content: Minimum >50%",
                     "Quality: SGS certified",
                     "Volume: Bulk shipments (5,000+ MT)",
                     "Loading: Onne & Lagos ports",

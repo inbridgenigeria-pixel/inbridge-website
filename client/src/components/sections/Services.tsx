@@ -50,7 +50,7 @@ export function Services() {
       title: "Mineral Exports",
       subtitle: "Ilmenite & Strategic Minerals",
       items: [
-        "Ilmenite ore (TiO₂ 50%) from Nigerian sources",
+        "Ilmenite ore (TiO₂ >50%) from Nigerian sources",
         "Bulk and containerized shipments to major ports",
         "End-to-end export documentation and logistics"
       ]

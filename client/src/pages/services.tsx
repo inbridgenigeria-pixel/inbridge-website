@@ -60,7 +60,7 @@ export default function Services() {
       href: "/services/minerals",
       description: "Reliable mineral supply and export logistics from Nigerian ports to global markets",
       features: [
-        "Ilmenite ore (TiO₂ 50%) from Nigerian sources",
+        "Ilmenite ore (TiO₂ >50%) from Nigerian sources",
         "Bulk and containerized shipments",
         "End-to-end export documentation"
       ]
