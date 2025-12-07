@@ -89,7 +89,7 @@ export function Featured() {
               <div className="mb-8">
                 <h2 className="text-3xl font-bold text-primary mb-4">Featured: Flexpipe Systems</h2>
                 <p className="text-muted-foreground text-lg">
-                  Reinforced thermoplastic pipe (RTP) solutions engineered for Nigeria's challenging oil and gas applications.
+                  We are pioneering the adoption of reinforced thermoplastic pipe (RTP) solutions into Nigeria's oil and gas operating environments through the deployment of Flexpipe® systems.
                 </p>
               </div>
 
