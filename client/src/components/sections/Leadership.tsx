@@ -17,10 +17,6 @@ export function Leadership() {
             delivering safe, efficient and bankable projects and supply chains."
           </blockquote>
 
-          <div className="text-center border-t border-slate-100 pt-6">
-            <strong className="block text-primary text-lg font-bold">Ikiomoworio Dienagha</strong>
-            <span className="text-sm text-muted-foreground">Principal Project Engineer & Founder, Inbridge Nigeria Ltd</span>
-          </div>
         </div>
       </div>
     </section>

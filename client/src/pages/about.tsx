@@ -118,23 +118,6 @@ export default function About() {
           </div>
         </section>
 
-        {/* Leadership */}
-        <section className="py-24 bg-white">
-          <div className="container mx-auto px-6 text-center">
-            <h2 className="text-3xl font-bold text-primary mb-16">Leadership</h2>
-            <div className="max-w-2xl mx-auto bg-slate-50 p-10 rounded-2xl border border-slate-100">
-              <div className="mb-6">
-                <h3 className="text-xl font-bold text-primary mb-2">Ikiomoworio Dienagha</h3>
-                <p className="text-slate-600 font-semibold mb-4">Principal Project Engineer & Founder</p>
-              </div>
-              <blockquote className="text-lg text-slate-600 italic leading-relaxed">
-                "At Inbridge, we combine engineering discipline, commercial acumen and a deep understanding of 
-                Africa's energy and mineral landscape. Our focus is on building long-term partnerships by 
-                delivering safe, efficient and bankable projects and supply chains."
-              </blockquote>
-            </div>
-          </div>
-        </section>
 
         {/* CTA */}
         <section className="py-20 bg-gradient-to-br from-slate-900 to-blue-900 text-white text-center">
