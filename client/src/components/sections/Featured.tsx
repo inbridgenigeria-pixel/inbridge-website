@@ -28,7 +28,7 @@ export function Featured() {
                 : "bg-slate-100 text-slate-700 hover:bg-slate-200"
             }`}
           >
-            Re-inforce Thermo Plastic Pipes
+            Flexpipe Systems
           </button>
         </div>
 
@@ -89,7 +89,7 @@ export function Featured() {
               <div className="mb-8">
                 <h2 className="text-3xl font-bold text-primary mb-4">Featured: Flexpipe Systems</h2>
                 <p className="text-muted-foreground text-lg">
-                  Inbridge Nigeria Ltd is pioneering the introduction of reinforced thermoplastic pipe (RTP) solutions into Nigeria's oil and gas operating environments through the deployment of Flexpipe® systems.
+                  Reinforced thermoplastic pipe (RTP) solutions engineered for Nigeria's challenging oil and gas applications.
                 </p>
               </div>
 
