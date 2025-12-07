@@ -141,7 +141,7 @@ export default function EPCServices() {
             <p className="text-blue-100 mb-10 max-w-2xl mx-auto">
               Contact our EPC team to discuss your project scope, timeline, and budget requirements.
             </p>
-            <Link href="/">
+            <Link href="/contact">
               <a>
                 <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-8">
                   Request a Quote

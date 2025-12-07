@@ -32,7 +32,11 @@ export function ContactCTA() {
         
         <div className="flex flex-wrap justify-center gap-4 mb-10">
           <Button size="lg" variant="secondary" className="rounded-full px-8 text-primary font-bold">
-            <a href="#contact-form">Contact / Request a Quote</a>
+            <a href="#contact-form" onClick={(e) => {
+                if (typeof window !== 'undefined' && window.location.pathname !== '/') {
+                  window.location.href = '/contact';
+                }
+              }}>Contact / Request a Quote</a>
           </Button>
         </div>
 

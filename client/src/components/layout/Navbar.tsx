@@ -1,4 +1,4 @@
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [location] = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,10 +17,18 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navLinks = [
+  // On home page, show anchor links. On other pages, show regular links
+  const isHomePage = location === "/";
+  
+  const navLinks = isHomePage ? [
     { name: "About", href: "#who-we-are" },
     { name: "Our Services", href: "#what-we-do" },
+  ] : [
+    { name: "About", href: "/about" },
+    { name: "Our Services", href: "/services" },
   ];
+
+  const contactHref = isHomePage ? "#contact-cta" : "/contact";
 
   return (
     <header
@@ -56,7 +65,7 @@ export function Navbar() {
             variant="outline"
             className="rounded-full border-white/90 text-white hover:bg-white hover:text-primary transition-all"
           >
-            <a href="#contact-cta">Contact / Quote</a>
+            <a href={contactHref}>Contact / Quote</a>
           </Button>
         </nav>
 
@@ -83,7 +92,7 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="#contact-cta"
+            href={contactHref}
             className="text-primary bg-white py-2 px-4 rounded-full text-center font-medium"
             onClick={() => setMobileMenuOpen(false)}
           >

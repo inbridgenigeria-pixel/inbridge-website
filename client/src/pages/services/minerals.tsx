@@ -141,7 +141,7 @@ export default function MineralExports() {
             <p className="text-blue-100 mb-10 max-w-2xl mx-auto">
               Contact us for current pricing, availability, and commercial terms for ilmenite shipments.
             </p>
-            <Link href="/">
+            <Link href="/contact">
               <a>
                 <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-8">
                   Get a Quote

@@ -155,7 +155,7 @@ export default function EnergySolutions() {
             <p className="text-blue-100 mb-10 max-w-2xl mx-auto">
               Contact our energy solutions team to explore how we can optimize your infrastructure.
             </p>
-            <Link href="/">
+            <Link href="/contact">
               <a>
                 <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-8">
                   Request a Consultation

@@ -151,11 +151,13 @@ export default function About() {
                   </Button>
                 </a>
               </Link>
-              <a href="#contact-cta">
-                <Button variant="outline" className="rounded-full px-8 border-white/30 text-white hover:bg-white/10">
-                  Get in Touch
-                </Button>
-              </a>
+              <Link href="/contact">
+                <a>
+                  <Button variant="outline" className="rounded-full px-8 border-white/30 text-white hover:bg-white/10">
+                    Get in Touch
+                  </Button>
+                </a>
+              </Link>
             </div>
           </div>
         </section>

@@ -170,7 +170,7 @@ export default function Services() {
             <p className="text-blue-100 mb-10 max-w-2xl mx-auto">
               Contact our team to discuss your project requirements or request a detailed proposal.
             </p>
-            <Link href="/">
+            <Link href="/contact">
               <a>
                 <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-8">
                   Contact Us
