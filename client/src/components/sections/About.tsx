@@ -32,9 +32,11 @@ export function About() {
               </div>
             </div>
 
-            <Button variant="outline" className="border-primary text-primary hover:bg-primary/5">
-              Learn more about Inbridge
-            </Button>
+            <a href="/about">
+              <Button variant="outline" className="border-primary text-primary hover:bg-primary/5">
+                Learn more about Inbridge
+              </Button>
+            </a>
           </motion.div>
 
           <motion.div

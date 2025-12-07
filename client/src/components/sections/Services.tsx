@@ -100,9 +100,11 @@ export function Services() {
         </div>
 
         <div className="text-center">
-          <Button className="bg-primary hover:bg-primary/90 rounded-full px-8">
-            View Full Service Offering
-          </Button>
+          <a href="/services">
+            <Button className="bg-primary hover:bg-primary/90 rounded-full px-8">
+              View Full Service Offering
+            </Button>
+          </a>
         </div>
       </div>
     </section>
