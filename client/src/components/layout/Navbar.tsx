@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import logo from "@assets/cropped-logo-scaled-1_(1)_1765151836080.png";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,8 +42,8 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <Link href="/">
-          <a className="text-xl font-bold tracking-wider text-white uppercase">
-            Inbridge
+          <a className="h-12 flex items-center">
+            <img src={logo} alt="Inbridge Nigeria Ltd" className="h-full object-contain" />
           </a>
         </Link>
 
