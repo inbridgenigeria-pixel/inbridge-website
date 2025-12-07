@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import { useState } from "react";
-import ilmeniteImg from "@assets/generated_images/african_workers_loading_ilmenite_ore_ship.png";
-import flexpipeImg from "@assets/generated_images/african_workers_flexpipe_trench_installation.png";
+import ilmeniteImg from "@assets/generated_images/ilmenite_ore_loading_into_ship.png";
+import flexpipeImg from "@assets/generated_images/flexpipe_spooled_installation_trench.png";
 
 export function Featured() {
   const [featured, setFeatured] = useState<"ilmenite" | "flexpipe">("ilmenite");
