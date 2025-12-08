@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inbridge Nigeria Ltd – EPC, Energy Solutions & Mineral Exports</title>
+    <meta name="description" content="Inbridge Nigeria Ltd – Delivering critical infrastructure, energy solutions, and reliable mineral exports (Ilmenite) from Nigeria to the globe." />
+    <meta property="og:title" content="Inbridge Nigeria Ltd – EPC, Energy Solutions & Mineral Exports" />
+    <meta property="og:description" content="Inbridge Nigeria Ltd – Delivering critical infrastructure, energy solutions, and reliable mineral exports (Ilmenite) from Nigeria to the globe." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/png" href="attached_assets/favicon_1765151836080.png" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              border: "hsl(30 20% 90%)",
+              background: "hsl(0 0% 100%)",
+              foreground: "hsl(20 15% 25%)",
+              primary: { DEFAULT: "hsl(18 50% 38%)", foreground: "hsl(0 0% 100%)" },
+              secondary: { DEFAULT: "hsl(40 100% 95%)", foreground: "hsl(18 50% 38%)" },
+              muted: { DEFAULT: "hsl(20 12% 52%)", foreground: "hsl(20 12% 52%)" },
+              accent: { DEFAULT: "hsl(32 95% 55%)", foreground: "hsl(0 0% 100%)" },
+            },
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              serif: ["Georgia", "serif"],
+            }
+          }
+        }
+      }
+    </script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    </style>
+</head>
+<body class="font-sans antialiased bg-background text-foreground">
+
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent bg-white py-4">
+      <div class="container mx-auto px-6 flex items-center justify-between">
+        <a href="./index.html" class="h-12 flex items-center">
+          <img src="attached_assets/cropped-logo-scaled-1_(1)_1765151836080.png" alt="Inbridge Nigeria Ltd" class="h-full object-contain" />
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex items-center gap-8">
+          <ul class="flex items-center gap-8">
+            <li><a href="./about/index.html" class="text-sm font-medium text-slate-600 hover:text-amber-700 transition-colors">About</a></li>
+            <li><a href="./services/index.html" class="text-sm font-medium text-slate-600 hover:text-amber-700 transition-colors">Our Services</a></li>
+          </ul>
+          <a href="#contact-cta" class="rounded-full bg-amber-600 hover:bg-amber-700 text-white transition-all py-2 px-6 font-medium">Contact / Quote</a>
+        </nav>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-btn" class="md:hidden text-slate-600">
+          <i data-lucide="menu" id="menu-icon"></i>
+          <i data-lucide="x" id="close-icon" class="hidden"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Nav -->
+      <div id="mobile-menu" class="hidden absolute top-full left-0 right-0 bg-white border-t border-amber-100 p-6 md:hidden flex flex-col gap-4 shadow-xl">
+        <a href="./about/index.html" class="text-slate-600 hover:text-amber-700 text-lg font-medium">About</a>
+        <a href="./services/index.html" class="text-slate-600 hover:text-amber-700 text-lg font-medium">Our Services</a>
+        <a href="#contact-cta" class="text-white bg-amber-600 hover:bg-amber-700 py-2 px-4 rounded-full text-center font-medium">Contact / Quote</a>
+      </div>
+    </header>
+
+    <main>
+       <!-- Hero -->
+       <section class="relative min-h-[80vh] flex items-center pt-20 pb-16 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+          <img
+            src="https://images.pexels.com/photos/906982/pexels-photo-906982.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="Industrial Background"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute inset-0 bg-gradient-to-r from-slate-800/85 via-amber-900/70 to-slate-700/80"></div>
+        </div>
+  
+        <div class="container mx-auto px-6 relative z-10 grid lg:grid-cols-12 gap-12 items-center">
+          <!-- Text Content -->
+          <div class="lg:col-span-7 text-white reveal">
+            <p class="text-sm tracking-[0.2em] uppercase text-amber-200 font-semibold mb-4">
+              Inbridge Nigeria Ltd
+            </p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+              EPC, Energy Solutions & <span class="text-amber-300">Mineral Exports</span>
+            </h1>
+            <p class="text-lg text-slate-200 mb-8 max-w-xl leading-relaxed">
+              We design and deliver engineering projects, energy infrastructure and reliable mineral
+              supply from Nigeria to clients across the globe.
+            </p>
+  
+            <div class="flex flex-wrap gap-3 mb-8">
+              <span class="px-4 py-1.5 rounded-full border border-amber-300/30 bg-amber-100/10 backdrop-blur-sm text-sm text-amber-100">EPC & Project Delivery</span>
+              <span class="px-4 py-1.5 rounded-full border border-amber-300/30 bg-amber-100/10 backdrop-blur-sm text-sm text-amber-100">Gas & Power Solutions</span>
+              <span class="px-4 py-1.5 rounded-full border border-amber-300/30 bg-amber-100/10 backdrop-blur-sm text-sm text-amber-100">Ilmenite & Mineral Exports</span>
+            </div>
+  
+            <div class="flex flex-wrap gap-4 mb-10">
+              <a href="#contact-cta" class="rounded-full text-base px-8 py-3 bg-amber-500 hover:bg-amber-600 shadow-lg shadow-amber-900/40 text-white font-medium">Request a Quote</a>
+              <a href="#what-we-do" class="rounded-full text-base px-8 py-3 border border-amber-300 text-white hover:bg-amber-100/10 bg-transparent font-medium">Explore Our Services</a>
+            </div>
+  
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm text-amber-100 border-t border-amber-200/20 pt-8">
+              <div>
+                <strong class="block text-white text-lg mb-1">10+ years</strong>
+                project delivery experience
+              </div>
+              <div>
+                <strong class="block text-white text-lg mb-1">Global reach</strong>
+                exports to key ports worldwide
+              </div>
+              <div>
+                <strong class="block text-white text-lg mb-1">Tech-driven</strong>
+                data & digital tools for reliability
+              </div>
+            </div>
+          </div>
+  
+          <!-- Floating Card -->
+          <div class="lg:col-span-5 reveal" style="transition-delay: 200ms;">
+            <div class="bg-amber-900/90 border border-amber-700/50 backdrop-blur-xl shadow-2xl shadow-black/50 text-white rounded-xl p-8">
+              <h3 class="text-xl font-bold mb-3 text-white">Fast Project & Shipment Inquiry</h3>
+              <p class="text-amber-100 mb-6 text-sm leading-relaxed">
+                Tell us briefly what you need and we’ll respond with a tailored proposal.
+              </p>
+              <ul class="space-y-3 mb-6 text-sm text-amber-100">
+                <li class="flex items-start gap-3">
+                  <i data-lucide="check-circle-2" class="w-5 h-5 text-amber-400 shrink-0"></i>
+                  <span>EPC scopes: pipelines, terminals, utilities</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <i data-lucide="check-circle-2" class="w-5 h-5 text-amber-400 shrink-0"></i>
+                  <span>Energy solutions: gas monetization, power systems</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <i data-lucide="check-circle-2" class="w-5 h-5 text-amber-400 shrink-0"></i>
+                  <span>Minerals: ilmenite (TiO₂ >50%) and exports</span>
+                </li>
+              </ul>
+              <div class="bg-amber-800/50 rounded-lg p-4 border border-amber-700/50">
+                <p class="text-sm text-amber-100">
+                  <strong class="text-white">Next step:</strong> Share your requirements on our Contact / Quote page to get started.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+
+       <!-- About -->
+       <section id="who-we-are" class="py-24 bg-secondary/50">
+        <div class="container mx-auto px-6">
+          <div class="grid lg:grid-cols-2 gap-16 items-center">
+            
+            <div class="reveal">
+              <h2 class="text-3xl font-bold text-primary mb-6">Who We Are</h2>
+              <p class="text-muted-foreground text-lg leading-relaxed mb-8">
+                Inbridge Nigeria Ltd is a technology-driven EPC and energy services company focused on
+                delivering critical infrastructure and reliable mineral exports. We combine deep
+                engineering expertise with strong commercial understanding of the African energy landscape.
+              </p>
+              
+              <div class="flex flex-wrap gap-6 mb-8">
+                <div class="pl-4 border-l-4 border-accent">
+                  <strong class="block text-primary text-lg">End-to-end delivery</strong>
+                  <span class="text-muted-foreground">From concept to handover</span>
+                </div>
+                <div class="pl-4 border-l-4 border-accent">
+                  <strong class="block text-primary text-lg">Energy & Exports</strong>
+                  <span class="text-muted-foreground">Gas, power & minerals</span>
+                </div>
+              </div>
+  
+              <a href="./about/index.html">
+                <button class="border border-primary text-primary hover:bg-primary/5 px-4 py-2 rounded-md font-medium">
+                  Learn more about Inbridge
+                </button>
+              </a>
+            </div>
+  
+            <div class="bg-white p-8 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 reveal" style="transition-delay: 200ms;">
+              <h3 class="text-xl font-bold text-primary mb-4">Our Mission</h3>
+              <p class="text-slate-600 mb-6 leading-relaxed">
+                To be a trusted partner for EPC, energy solutions and mineral exports from Nigeria by
+                delivering safe, efficient and commercially attractive projects and supply chains.
+              </p>
+              <p class="text-slate-600 leading-relaxed">
+                We leverage proven project management practices, digital tools and a strong vendor network
+                to reduce risk and create value for our clients and partners.
+              </p>
+            </div>
+  
+          </div>
+        </div>
+      </section>
+
+       <!-- Services -->
+       <section id="what-we-do" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+          <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+            <h2 class="text-3xl font-bold text-primary mb-4">What We Do</h2>
+            <p class="text-muted-foreground text-lg">
+              A clear focus on three pillars: EPC projects, energy infrastructure solutions and mineral exports.
+            </p>
+          </div>
+  
+          <div class="grid md:grid-cols-3 gap-8 mb-12">
+            <!-- Service 1 -->
+            <div class="reveal">
+              <div class="h-full hover:shadow-lg transition-all duration-300 border border-slate-200 rounded-lg p-6 flex flex-col">
+                <div class="w-12 h-12 rounded-full bg-amber-50 flex items-center justify-center text-primary mb-4">
+                  <svg width="22" height="22" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2">
+                    <path d="M14 2l-2 2-2-2M2 14l2-2-2-2M22 14l-2-2 2-2"/>
+                    <circle cx="12" cy="12" r="3"/>
+                    <path d="M12 15v6M12 3v6M3 12h6M15 12h6"/>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-bold text-primary mb-1">EPC Services</h3>
+                <p class="text-sm font-semibold text-slate-700 mb-4">Engineering, Procurement & Construction</p>
+                <ul class="space-y-3 text-muted-foreground text-sm flex-grow">
+                    <li class="flex items-start"><span class="mr-2 text-accent">•</span>Brownfield & greenfield oil and gas projects</li>
+                    <li class="flex items-start"><span class="mr-2 text-accent">•</span>Pipelines, terminals, utilities and process plants</li>
+                    <li class="flex items-start"><span class="mr-2 text-accent">•</span>Project management, construction supervision & commissioning</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="reveal" style="transition-delay: 100ms;">
+                <div class="h-full hover:shadow-lg transition-all duration-300 border border-slate-200 rounded-lg p-6 flex flex-col">
+                  <div class="w-12 h-12 rounded-full bg-amber-50 flex items-center justify-center text-primary mb-4">
+                    <svg width="22" height="22" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9z"/>
+                      </svg>
+                  </div>
+                  <h3 class="text-xl font-bold text-primary mb-1">Energy Solutions</h3>
+                  <p class="text-sm font-semibold text-slate-700 mb-4">Gas & Power Infrastructure</p>
+                  <ul class="space-y-3 text-muted-foreground text-sm flex-grow">
+                      <li class="flex items-start"><span class="mr-2 text-accent">•</span>Gas monetization and midstream solutions</li>
+                      <li class="flex items-start"><span class="mr-2 text-accent">•</span>Power and utilities systems for industrial sites</li>
+                      <li class="flex items-start"><span class="mr-2 text-accent">•</span>Digital and efficiency upgrades for existing assets</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Service 3 -->
+              <div class="reveal" style="transition-delay: 200ms;">
+                <div class="h-full hover:shadow-lg transition-all duration-300 border border-slate-200 rounded-lg p-6 flex flex-col">
+                  <div class="w-12 h-12 rounded-full bg-amber-50 flex items-center justify-center text-primary mb-4">
+                    <svg width="22" height="22" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2">
+                        <path d="M2 22l6-6M6 18l4 4M22 2l-6 6M18 6l4 4"/>
+                        <path d="M14 10l-4 4"/>
+                      </svg>
+                  </div>
+                  <h3 class="text-xl font-bold text-primary mb-1">Mineral Exports</h3>
+                  <p class="text-sm font-semibold text-slate-700 mb-4">Ilmenite & Strategic Minerals</p>
+                  <ul class="space-y-3 text-muted-foreground text-sm flex-grow">
+                      <li class="flex items-start"><span class="mr-2 text-accent">•</span>Ilmenite ore (TiO₂ >50%) from Nigerian sources</li>
+                      <li class="flex items-start"><span class="mr-2 text-accent">•</span>Bulk and containerized shipments to major ports</li>
+                      <li class="flex items-start"><span class="mr-2 text-accent">•</span>End-to-end export documentation and logistics</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+  
+          <div class="text-center">
+            <a href="./services/index.html">
+              <button class="bg-primary hover:bg-primary/90 rounded-full px-8 py-3 text-white font-medium">
+                View Full Service Offering
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+       <!-- Trust -->
+       <section class="py-20 bg-secondary/50">
+        <div class="container mx-auto px-6">
+          <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+            <h2 class="text-3xl font-bold text-primary mb-4">Why Clients Trust Inbridge</h2>
+            <p class="text-muted-foreground">
+              We bring together technical rigor, execution discipline and a global outlook on energy and minerals.
+            </p>
+          </div>
+  
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Badge 1 -->
+            <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow reveal">
+              <div class="mb-4 text-primary opacity-80">
+                <i data-lucide="shield-check" class="w-8 h-8"></i>
+              </div>
+              <h3 class="font-bold text-primary mb-2">Proven Experience</h3>
+              <p class="text-sm text-muted-foreground leading-relaxed">10+ years delivering complex projects within major oil & gas portfolios.</p>
+            </div>
+            <!-- Badge 2 -->
+            <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow reveal">
+                <div class="mb-4 text-primary opacity-80">
+                  <i data-lucide="globe-2" class="w-8 h-8"></i>
+                </div>
+                <h3 class="font-bold text-primary mb-2">Global Export Capability</h3>
+                <p class="text-sm text-muted-foreground leading-relaxed">Established logistics from Nigerian ports to Europe, Asia and beyond.</p>
+            </div>
+            <!-- Badge 3 -->
+            <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow reveal">
+                <div class="mb-4 text-primary opacity-80">
+                  <i data-lucide="file-check" class="w-8 h-8"></i>
+                </div>
+                <h3 class="font-bold text-primary mb-2">Quality & Compliance</h3>
+                <p class="text-sm text-muted-foreground leading-relaxed">Third-party inspection, regulatory compliance and robust HSE culture.</p>
+            </div>
+            <!-- Badge 4 -->
+            <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow reveal">
+                <div class="mb-4 text-primary opacity-80">
+                  <i data-lucide="database" class="w-8 h-8"></i>
+                </div>
+                <h3 class="font-bold text-primary mb-2">Technology-Driven</h3>
+                <p class="text-sm text-muted-foreground leading-relaxed">Use of data, digital tools and structured processes for better outcomes.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!-- Featured -->
+       <section class="py-24 bg-white overflow-hidden">
+        <div class="container mx-auto px-6">
+          <!-- Toggle Buttons -->
+          <div class="flex flex-wrap justify-center gap-4 mb-16 reveal">
+            <button
+              data-toggle="ilmenite"
+              class="px-6 py-2 rounded-full font-semibold transition-all bg-primary text-white shadow-lg cursor-pointer border-0"
+            >
+              Ilmenite Supply
+            </button>
+            <button
+              data-toggle="flexpipe"
+              class="px-6 py-2 rounded-full font-semibold transition-all bg-slate-100 text-slate-700 hover:bg-slate-200 cursor-pointer border-0"
+            >
+              Flexpipe Systems
+            </button>
+          </div>
+  
+          <!-- Ilmenite Content -->
+          <div data-content="ilmenite" class="grid lg:grid-cols-2 gap-16 items-center reveal">
+            <div class="order-2 lg:order-1">
+              <div class="mb-8">
+                <h2 class="text-3xl font-bold text-primary mb-4">Featured: Ilmenite Supply & Export</h2>
+                <p class="text-muted-foreground text-lg">
+                  Reliable ilmenite ore (TiO₂ >50%) exports with controlled quality and logistics from Nigerian ports.
+                </p>
+              </div>
+  
+              <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 shadow-sm mb-8">
+                <h3 class="text-xl font-bold text-primary mb-4">Ilmenite (TiO₂ >50%)</h3>
+                <ul class="space-y-3 mb-6">
+                  <li class="flex items-start gap-3 text-slate-700"><i data-lucide="check" class="w-5 h-5 text-accent shrink-0"></i><span>Minimum TiO₂ content: >50%</span></li>
+                  <li class="flex items-start gap-3 text-slate-700"><i data-lucide="check" class="w-5 h-5 text-accent shrink-0"></i><span>Bulk or containerized shipments from Onne / Lagos ports</span></li>
+                  <li class="flex items-start gap-3 text-slate-700"><i data-lucide="check" class="w-5 h-5 text-accent shrink-0"></i><span>SGS or equivalent inspection for quality & quantity</span></li>
+                  <li class="flex items-start gap-3 text-slate-700"><i data-lucide="check" class="w-5 h-5 text-accent shrink-0"></i><span>CIF delivery to major ports worldwide</span></li>
+                </ul>
+                <p class="text-sm text-muted-foreground italic border-t border-slate-200 pt-4">
+                  We work closely with buyers to structure commercially attractive offtake arrangements,
+                  supported by transparent sampling, testing and documentation.
+                </p>
+              </div>
+  
+              <a href="#contact-cta" class="bg-primary hover:bg-primary/90 rounded-full px-8 py-3 text-white font-medium inline-block">Request Ilmenite Quote</a>
+            </div>
+  
+            <div class="order-1 lg:order-2 relative">
+              <div class="relative rounded-2xl overflow-hidden shadow-2xl shadow-slate-200">
+                <img
+                  src="attached_assets/generated_images/ilmenite_ore_loaded_by_crane_into_ship.png"
+                  alt="Ilmenite ore loading into ship"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent pointer-events-none"></div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Flexpipe Content -->
+          <div data-content="flexpipe" class="grid lg:grid-cols-2 gap-16 items-center hidden">
+            <div class="order-2 lg:order-1 reveal">
+              <div class="mb-8">
+                <h2 class="text-3xl font-bold text-primary mb-4">Featured: Flexpipe Systems</h2>
+                <p class="text-muted-foreground text-lg">
+                  We are pioneering the adoption of reinforced thermoplastic pipe (RTP) solutions into Nigeria's oil and gas operating environments through the deployment of Flexpipe® systems.
+                </p>
+              </div>
+  
+              <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 shadow-sm mb-8">
+                <h3 class="text-xl font-bold text-primary mb-4">Flexpipe RTP Technology</h3>
+                <ul class="space-y-3 mb-6">
+                  <li class="flex items-start gap-3 text-slate-700"><i data-lucide="check" class="w-5 h-5 text-accent shrink-0"></i><span>High-pressure, corrosion-resistant piping systems</span></li>
+                  <li class="flex items-start gap-3 text-slate-700"><i data-lucide="check" class="w-5 h-5 text-accent shrink-0"></i><span>Suitable for onshore and subsea oil & gas applications</span></li>
+                  <li class="flex items-start gap-3 text-slate-700"><i data-lucide="check" class="w-5 h-5 text-accent shrink-0"></i><span>Reduced installation time vs. steel pipelines</span></li>
+                  <li class="flex items-start gap-3 text-slate-700"><i data-lucide="check" class="w-5 h-5 text-accent shrink-0"></i><span>Full design, supply, and installation support</span></li>
+                </ul>
+                <p class="text-sm text-muted-foreground italic border-t border-slate-200 pt-4">
+                  Flexpipe systems deliver cost-effective, durable solutions for Nigeria's complex oil & gas 
+                  infrastructure requirements with reduced downtime and lower lifecycle costs.
+                </p>
+              </div>
+  
+              <a href="#contact-cta" class="bg-primary hover:bg-primary/90 rounded-full px-8 py-3 text-white font-medium inline-block">Request Flexpipe Quote</a>
+            </div>
+  
+            <div class="order-1 lg:order-2 relative reveal">
+              <div class="relative rounded-2xl overflow-hidden shadow-2xl shadow-slate-200">
+                <img
+                  src="attached_assets/generated_images/flexpipe_installation_with_african_workers.png"
+                  alt="Flexpipe spooled installation in trench"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent pointer-events-none"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!-- Process -->
+       <section class="py-24 bg-secondary/50">
+        <div class="container mx-auto px-6">
+          <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+            <h2 class="text-3xl font-bold text-primary mb-4">How We Work With You</h2>
+            <p class="text-muted-foreground">
+              Whether it’s an EPC project or a mineral shipment, our process is structured, transparent and collaborative.
+            </p>
+          </div>
+  
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white p-6 rounded-xl border border-slate-100 relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300 reveal">
+                <div class="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold mb-4 shadow-lg shadow-primary/20">1</div>
+                <h3 class="font-bold text-primary mb-2 text-lg">Discuss Requirements</h3>
+                <p class="text-sm text-muted-foreground">Share project scope or mineral needs, timelines and target locations.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-slate-100 relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300 reveal" style="transition-delay: 100ms;">
+                <div class="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold mb-4 shadow-lg shadow-primary/20">2</div>
+                <h3 class="font-bold text-primary mb-2 text-lg">Technical & Commercial Proposal</h3>
+                <p class="text-sm text-muted-foreground">We prepare a clear scope, schedule and commercial structure.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-slate-100 relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300 reveal" style="transition-delay: 200ms;">
+                <div class="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold mb-4 shadow-lg shadow-primary/20">3</div>
+                <h3 class="font-bold text-primary mb-2 text-lg">Execution & Monitoring</h3>
+                <p class="text-sm text-muted-foreground">Our team manages delivery end-to-end with regular progress updates.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-slate-100 relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300 reveal" style="transition-delay: 300ms;">
+                <div class="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold mb-4 shadow-lg shadow-primary/20">4</div>
+                <h3 class="font-bold text-primary mb-2 text-lg">Handover & Support</h3>
+                <p class="text-sm text-muted-foreground">Final documentation, close-out and ongoing technical/commercial support.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!-- Leadership -->
+       <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12 reveal">
+            <h2 class="text-3xl font-bold text-primary">Leadership Perspective</h2>
+          </div>
+          
+          <div class="max-w-3xl mx-auto bg-white p-10 rounded-2xl shadow-xl shadow-slate-100 border border-slate-100 relative reveal">
+            <i data-lucide="quote" class="absolute top-8 left-8 w-12 h-12 text-slate-100 rotate-180 -z-10 fill-slate-100"></i>
+            
+            <blockquote class="text-lg md:text-xl text-slate-600 italic leading-relaxed text-center mb-8 font-serif">
+              "At Inbridge, we combine engineering discipline, commercial acumen and a deep understanding of
+              Africa’s energy and mineral landscape. Our focus is on building long-term partnerships by
+              delivering safe, efficient and bankable projects and supply chains."
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+       <!-- ContactCTA -->
+       <section id="contact-cta" class="py-24 bg-gradient-to-br from-slate-800 via-slate-750 to-slate-700 text-white text-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+        
+        <div class="container mx-auto px-6 relative z-10">
+          <h2 class="text-3xl md:text-4xl font-bold mb-6 reveal">Ready to Discuss a Project or Shipment?</h2>
+          <p class="text-slate-200 text-lg max-w-2xl mx-auto mb-10 leading-relaxed reveal">
+            Tell us about your EPC scope, energy challenge or mineral requirement and our team will respond
+            with a tailored proposal or quotation.
+          </p>
+          
+          <div class="flex flex-wrap justify-center gap-4 mb-10 reveal">
+            <button class="bg-secondary text-primary font-bold rounded-full px-8 py-3 hover:bg-white/90 transition-colors">
+                Contact / Request a Quote
+            </button>
+          </div>
+  
+          <form 
+            id="contact-form"
+            class="max-w-[540px] mx-auto text-left bg-slate-700/40 backdrop-blur-md rounded-2xl p-8 border border-slate-600/50 reveal"
+          >
+            <div class="mb-6">
+              <label class="block text-white font-semibold mb-2">Name</label>
+              <input
+                type="text"
+                name="name"
+                required
+                class="w-full px-4 py-3 rounded-lg border border-white/20 bg-white/10 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-amber-400"
+                placeholder="Your name"
+              />
+            </div>
+  
+            <div class="mb-6">
+              <label class="block text-white font-semibold mb-2">Email</label>
+              <input
+                type="email"
+                name="email"
+                required
+                class="w-full px-4 py-3 rounded-lg border border-white/20 bg-white/10 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-amber-400"
+                placeholder="your@email.com"
+              />
+            </div>
+  
+            <div class="mb-8">
+              <label class="block text-white font-semibold mb-2">Project / Mineral Requirement</label>
+              <textarea
+                name="requirement"
+                required
+                rows="4"
+                class="w-full px-4 py-3 rounded-lg border border-white/20 bg-white/10 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-amber-400 resize-none"
+                placeholder="Describe your project scope or mineral requirement..."
+              ></textarea>
+            </div>
+  
+            <button type="submit" class="w-full bg-amber-600 hover:bg-amber-700 text-white font-semibold py-3 rounded-lg transition-colors duration-300">
+              Submit Inquiry
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-slate-900 to-slate-800 text-slate-300 py-12 text-sm border-t-2 border-amber-600">
+      <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="text-slate-400">
+          &copy; <script>document.write(new Date().getFullYear())</script> Inbridge Nigeria Ltd. All rights reserved.
+        </div>
+        <div class="flex gap-8 flex-wrap justify-center">
+          <a href="./index.html" class="hover:text-amber-400 transition-colors duration-300">Home</a>
+          <a href="./about/index.html" class="hover:text-amber-400 transition-colors duration-300">About Us</a>
+          <a href="./services/index.html" class="hover:text-amber-400 transition-colors duration-300">Our Services</a>
+          <a href="#contact-cta" class="hover:text-amber-400 transition-colors duration-300">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a
+      href="https://wa.me/2349157877777?text=Hello!%20I'm%20interested%20in%20discussing%20a%20project%20or%20shipment."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 z-50 flex items-center justify-center"
+      title="Chat with us on WhatsApp"
+    >
+      <i data-lucide="message-circle" class="w-6 h-6"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

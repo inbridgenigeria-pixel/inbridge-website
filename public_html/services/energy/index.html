@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Energy Solutions - Inbridge Nigeria Ltd</title>
+    <meta name="description" content="Inbridge Nigeria Ltd – Delivering critical infrastructure, energy solutions, and reliable mineral exports (Ilmenite) from Nigeria to the globe." />
+    <link rel="icon" type="image/png" href="../../attached_assets/favicon_1765151836080.png" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              border: "hsl(30 20% 90%)",
+              background: "hsl(0 0% 100%)",
+              foreground: "hsl(20 15% 25%)",
+              primary: { DEFAULT: "hsl(18 50% 38%)", foreground: "hsl(0 0% 100%)" },
+              secondary: { DEFAULT: "hsl(40 100% 95%)", foreground: "hsl(18 50% 38%)" },
+              muted: { DEFAULT: "hsl(20 12% 52%)", foreground: "hsl(20 12% 52%)" },
+              accent: { DEFAULT: "hsl(32 95% 55%)", foreground: "hsl(0 0% 100%)" },
+            },
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              serif: ["Georgia", "serif"],
+            }
+          }
+        }
+      }
+    </script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    </style>
+</head>
+<body class="font-sans antialiased bg-background text-foreground">
+
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent bg-white py-4">
+      <div class="container mx-auto px-6 flex items-center justify-between">
+        <a href="../../index.html" class="h-12 flex items-center">
+          <img src="../../attached_assets/cropped-logo-scaled-1_(1)_1765151836080.png" alt="Inbridge Nigeria Ltd" class="h-full object-contain" />
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex items-center gap-8">
+          <ul class="flex items-center gap-8">
+            <li><a href="../../about/index.html" class="text-sm font-medium text-slate-600 hover:text-amber-700 transition-colors">About</a></li>
+            <li><a href="../index.html" class="text-sm font-medium text-slate-600 hover:text-amber-700 transition-colors">Our Services</a></li>
+          </ul>
+          <a href="../../contact/index.html" class="rounded-full bg-amber-600 hover:bg-amber-700 text-white transition-all py-2 px-6 font-medium">Contact / Quote</a>
+        </nav>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-btn" class="md:hidden text-slate-600">
+          <i data-lucide="menu" id="menu-icon"></i>
+          <i data-lucide="x" id="close-icon" class="hidden"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Nav -->
+      <div id="mobile-menu" class="hidden absolute top-full left-0 right-0 bg-white border-t border-amber-100 p-6 md:hidden flex flex-col gap-4 shadow-xl">
+        <a href="../../about/index.html" class="text-slate-600 hover:text-amber-700 text-lg font-medium">About</a>
+        <a href="../index.html" class="text-slate-600 hover:text-amber-700 text-lg font-medium">Our Services</a>
+        <a href="../../contact/index.html" class="text-white bg-amber-600 hover:bg-amber-700 py-2 px-4 rounded-full text-center font-medium">Contact / Quote</a>
+      </div>
+    </header>
+
+    <main class="pt-32">
+        <!-- Header -->
+        <section class="py-20 bg-gradient-to-br from-amber-50 to-amber-50">
+          <div class="container mx-auto px-6">
+            <a href="../index.html" class="inline-flex items-center gap-2 text-primary hover:text-primary/80 mb-6">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Services
+            </a>
+            <div class="reveal">
+              <h1 class="text-4xl md:text-5xl font-bold text-primary mb-6">
+                Energy Solutions
+              </h1>
+              <p class="text-xl text-muted-foreground max-w-3xl leading-relaxed">
+                Comprehensive gas and power infrastructure solutions designed to optimize energy production, 
+                reduce costs, and improve operational efficiency.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Overview -->
+        <section class="py-24 bg-white">
+          <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+              <div class="reveal">
+                <h2 class="text-3xl font-bold text-primary mb-6">Energy Infrastructure</h2>
+                <p class="text-slate-600 mb-6 leading-relaxed">
+                  From gas monetization and midstream solutions to power generation and utilities infrastructure, 
+                  we provide integrated energy solutions that unlock value and drive efficiency across your operations.
+                </p>
+              </div>
+              <div class="bg-slate-50 p-10 rounded-2xl border border-slate-100 reveal" style="transition-delay: 200ms;">
+                <h3 class="text-2xl font-bold text-primary mb-6">Solution Areas</h3>
+                <ul class="space-y-4">
+                  <li class="flex items-start gap-3"><span class="text-accent font-bold">✓</span><span class="text-slate-700">Gas monetization & processing</span></li>
+                  <li class="flex items-start gap-3"><span class="text-accent font-bold">✓</span><span class="text-slate-700">Midstream infrastructure</span></li>
+                  <li class="flex items-start gap-3"><span class="text-accent font-bold">✓</span><span class="text-slate-700">Power generation systems</span></li>
+                  <li class="flex items-start gap-3"><span class="text-accent font-bold">✓</span><span class="text-slate-700">Utilities infrastructure</span></li>
+                  <li class="flex items-start gap-3"><span class="text-accent font-bold">✓</span><span class="text-slate-700">Digital efficiency upgrades</span></li>
+                  <li class="flex items-start gap-3"><span class="text-accent font-bold">✓</span><span class="text-slate-700">Renewable energy integration</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Services -->
+        <section class="py-24 bg-secondary/50">
+          <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-primary text-center mb-16 reveal">Our Energy Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl border border-slate-100 reveal">
+                    <h3 class="text-xl font-bold text-primary mb-3">Gas Monetization</h3>
+                    <p class="text-slate-600 mb-6 text-sm">End-to-end gas processing and commercialization solutions</p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2 text-sm text-slate-700"><span class="text-accent">•</span> Processing systems</li>
+                        <li class="flex items-center gap-2 text-sm text-slate-700"><span class="text-accent">•</span> Distribution infrastructure</li>
+                        <li class="flex items-center gap-2 text-sm text-slate-700"><span class="text-accent">•</span> LNG solutions</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-xl border border-slate-100 reveal" style="transition-delay: 100ms;">
+                    <h3 class="text-xl font-bold text-primary mb-3">Power Solutions</h3>
+                    <p class="text-slate-600 mb-6 text-sm">Reliable power generation and distribution infrastructure</p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2 text-sm text-slate-700"><span class="text-accent">•</span> Power plants</li>
+                        <li class="flex items-center gap-2 text-sm text-slate-700"><span class="text-accent">•</span> Grid infrastructure</li>
+                        <li class="flex items-center gap-2 text-sm text-slate-700"><span class="text-accent">•</span> Backup systems</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-xl border border-slate-100 reveal" style="transition-delay: 200ms;">
+                    <h3 class="text-xl font-bold text-primary mb-3">Efficiency Upgrades</h3>
+                    <p class="text-slate-600 mb-6 text-sm">Modernize and optimize existing energy infrastructure</p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2 text-sm text-slate-700"><span class="text-accent">•</span> Digital monitoring</li>
+                        <li class="flex items-center gap-2 text-sm text-slate-700"><span class="text-accent">•</span> Performance optimization</li>
+                        <li class="flex items-center gap-2 text-sm text-slate-700"><span class="text-accent">•</span> Cost reduction</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Why Energy with Inbridge -->
+        <section class="py-24 bg-white">
+          <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-primary text-center mb-16 reveal">Why Energy with Inbridge</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="border-l-4 border-accent pl-6 reveal">
+                    <h3 class="text-xl font-bold text-primary mb-2">Deep Expertise</h3>
+                    <p class="text-slate-600">Extensive experience in African energy landscape and market dynamics</p>
+                </div>
+                <div class="border-l-4 border-accent pl-6 reveal" style="transition-delay: 100ms;">
+                    <h3 class="text-xl font-bold text-primary mb-2">Integrated Solutions</h3>
+                    <p class="text-slate-600">End-to-end approach from design through operation and optimization</p>
+                </div>
+                <div class="border-l-4 border-accent pl-6 reveal" style="transition-delay: 200ms;">
+                    <h3 class="text-xl font-bold text-primary mb-2">Sustainable Development</h3>
+                    <p class="text-slate-600">Focus on environmentally responsible and efficient solutions</p>
+                </div>
+                <div class="border-l-4 border-accent pl-6 reveal" style="transition-delay: 300ms;">
+                    <h3 class="text-xl font-bold text-primary mb-2">Proven Results</h3>
+                    <p class="text-slate-600">Track record of successful projects that generate measurable value</p>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="py-20 bg-gradient-to-br from-slate-800 to-amber-900 text-white text-center">
+          <div class="container mx-auto px-6 reveal">
+            <h2 class="text-3xl font-bold mb-6">Discuss Your Energy Challenge</h2>
+            <p class="text-amber-100 mb-10 max-w-2xl mx-auto">
+              Contact our energy solutions team to explore how we can optimize your infrastructure.
+            </p>
+            <a href="../../contact/index.html" class="bg-amber-600 hover:bg-amber-700 rounded-full px-8 py-3 font-medium transition-colors inline-block">
+                Request a Consultation
+            </a>
+          </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-slate-900 to-slate-800 text-slate-300 py-12 text-sm border-t-2 border-amber-600">
+      <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="text-slate-400">
+          &copy; <script>document.write(new Date().getFullYear())</script> Inbridge Nigeria Ltd. All rights reserved.
+        </div>
+        <div class="flex gap-8 flex-wrap justify-center">
+          <a href="../../index.html" class="hover:text-amber-400 transition-colors duration-300">Home</a>
+          <a href="../../about/index.html" class="hover:text-amber-400 transition-colors duration-300">About Us</a>
+          <a href="../index.html" class="hover:text-amber-400 transition-colors duration-300">Our Services</a>
+          <a href="../../contact/index.html" class="hover:text-amber-400 transition-colors duration-300">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a
+      href="https://wa.me/2349157877777?text=Hello!%20I'm%20interested%20in%20discussing%20a%20project%20or%20shipment."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 z-50 flex items-center justify-center"
+      title="Chat with us on WhatsApp"
+    >
+      <i data-lucide="message-circle" class="w-6 h-6"></i>
+    </a>
+
+    <script src="../../js/main.js"></script>
+</body>
+</html>
