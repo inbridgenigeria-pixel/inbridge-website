@@ -13,7 +13,7 @@ export function Hero() {
           alt="Industrial Background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-amber-900/85 via-amber-800/75 to-amber-700/65" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-800/85 via-amber-900/70 to-slate-700/80" />
       </div>
 
       <div className="container mx-auto px-6 relative z-10 grid lg:grid-cols-12 gap-12 items-center">
