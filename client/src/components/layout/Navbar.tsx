@@ -36,8 +36,8 @@ export function Navbar() {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent",
         isScrolled
-          ? "bg-slate-900/95 backdrop-blur-md shadow-md border-white/10 py-2"
-          : "bg-slate-900/90 backdrop-blur-sm py-4"
+          ? "bg-white shadow-md border-amber-100 py-2"
+          : "bg-white py-4"
       )}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
@@ -54,7 +54,7 @@ export function Navbar() {
               <li key={link.name}>
                 <a
                   href={link.href}
-                  className="text-sm font-medium text-slate-200 hover:text-white transition-colors"
+                  className="text-sm font-medium text-slate-600 hover:text-amber-700 transition-colors"
                 >
                   {link.name}
                 </a>
@@ -63,8 +63,7 @@ export function Navbar() {
           </ul>
           <Button
             asChild
-            variant="outline"
-            className="rounded-full border-white/90 text-white hover:bg-white hover:text-primary transition-all"
+            className="rounded-full bg-amber-600 hover:bg-amber-700 text-white transition-all"
           >
             <a href={contactHref}>Contact / Quote</a>
           </Button>
@@ -72,7 +71,7 @@ export function Navbar() {
 
         {/* Mobile Menu Toggle */}
         <button
-          className="md:hidden text-white"
+          className="md:hidden text-slate-600"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? <X /> : <Menu />}
@@ -81,12 +80,12 @@ export function Navbar() {
 
       {/* Mobile Nav */}
       {mobileMenuOpen && (
-        <div className="absolute top-full left-0 right-0 bg-slate-900 border-t border-white/10 p-6 md:hidden flex flex-col gap-4 shadow-xl">
+        <div className="absolute top-full left-0 right-0 bg-white border-t border-amber-100 p-6 md:hidden flex flex-col gap-4 shadow-xl">
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
-              className="text-slate-200 hover:text-white text-lg font-medium"
+              className="text-slate-600 hover:text-amber-700 text-lg font-medium"
               onClick={() => setMobileMenuOpen(false)}
             >
               {link.name}
@@ -94,7 +93,7 @@ export function Navbar() {
           ))}
           <a
             href={contactHref}
-            className="text-primary bg-white py-2 px-4 rounded-full text-center font-medium"
+            className="text-white bg-amber-600 hover:bg-amber-700 py-2 px-4 rounded-full text-center font-medium"
             onClick={() => setMobileMenuOpen(false)}
           >
             Contact / Quote
