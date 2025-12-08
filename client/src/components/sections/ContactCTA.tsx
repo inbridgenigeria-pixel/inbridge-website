@@ -20,12 +20,12 @@ export function ContactCTA() {
   };
 
   return (
-    <section id="contact-cta" className="py-24 bg-gradient-to-br from-amber-900 to-amber-800 text-white text-center relative overflow-hidden">
+    <section id="contact-cta" className="py-24 bg-gradient-to-br from-slate-800 via-slate-750 to-slate-700 text-white text-center relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
       
       <div className="container mx-auto px-6 relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Discuss a Project or Shipment?</h2>
-        <p className="text-amber-100 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-slate-200 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
           Tell us about your EPC scope, energy challenge or mineral requirement and our team will respond
           with a tailored proposal or quotation.
         </p>
@@ -43,7 +43,7 @@ export function ContactCTA() {
         <form 
           id="contact-form"
           onSubmit={handleSubmit}
-          className="max-w-[540px] mx-auto text-left bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10"
+          className="max-w-[540px] mx-auto text-left bg-slate-700/40 backdrop-blur-md rounded-2xl p-8 border border-slate-600/50"
         >
           <div className="mb-6">
             <label className="block text-white font-semibold mb-2">Name</label>
