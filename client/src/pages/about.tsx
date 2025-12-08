@@ -11,7 +11,7 @@ export default function About() {
       <Navbar />
       <main className="pt-32">
         {/* Hero */}
-        <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+        <section className="py-20 bg-gradient-to-br from-amber-50 to-amber-50">
           <div className="container mx-auto px-6">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -120,16 +120,16 @@ export default function About() {
 
 
         {/* CTA */}
-        <section className="py-20 bg-gradient-to-br from-slate-900 to-blue-900 text-white text-center">
+        <section className="py-20 bg-gradient-to-br from-slate-800 to-amber-900 text-white text-center">
           <div className="container mx-auto px-6">
             <h2 className="text-3xl font-bold mb-6">Ready to Partner with Inbridge?</h2>
-            <p className="text-blue-100 mb-10 max-w-2xl mx-auto">
+            <p className="text-amber-100 mb-10 max-w-2xl mx-auto">
               Explore our services or discuss your project requirements with our team.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/services">
                 <a>
-                  <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-8">
+                  <Button className="bg-amber-600 hover:bg-amber-700 rounded-full px-8">
                     View Our Services
                   </Button>
                 </a>

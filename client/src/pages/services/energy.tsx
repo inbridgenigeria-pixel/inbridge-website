@@ -11,7 +11,7 @@ export default function EnergySolutions() {
       <Navbar />
       <main className="pt-32">
         {/* Header */}
-        <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+        <section className="py-20 bg-gradient-to-br from-amber-50 to-amber-50">
           <div className="container mx-auto px-6">
             <Link href="/services">
               <a className="inline-flex items-center gap-2 text-primary hover:text-primary/80 mb-6">
@@ -149,15 +149,15 @@ export default function EnergySolutions() {
         </section>
 
         {/* CTA */}
-        <section className="py-20 bg-gradient-to-br from-slate-900 to-blue-900 text-white text-center">
+        <section className="py-20 bg-gradient-to-br from-slate-800 to-amber-900 text-white text-center">
           <div className="container mx-auto px-6">
             <h2 className="text-3xl font-bold mb-6">Discuss Your Energy Challenge</h2>
-            <p className="text-blue-100 mb-10 max-w-2xl mx-auto">
+            <p className="text-amber-100 mb-10 max-w-2xl mx-auto">
               Contact our energy solutions team to explore how we can optimize your infrastructure.
             </p>
             <Link href="/contact">
               <a>
-                <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-8">
+                <Button className="bg-amber-600 hover:bg-amber-700 rounded-full px-8">
                   Request a Consultation
                 </Button>
               </a>

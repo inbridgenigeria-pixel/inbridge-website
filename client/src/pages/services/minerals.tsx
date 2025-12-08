@@ -11,7 +11,7 @@ export default function MineralExports() {
       <Navbar />
       <main className="pt-32">
         {/* Header */}
-        <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+        <section className="py-20 bg-gradient-to-br from-amber-50 to-amber-50">
           <div className="container mx-auto px-6">
             <Link href="/services">
               <a className="inline-flex items-center gap-2 text-primary hover:text-primary/80 mb-6">
@@ -96,7 +96,7 @@ export default function MineralExports() {
                   transition={{ delay: i * 0.1 }}
                   className="bg-white p-6 rounded-xl border border-slate-100 text-center"
                 >
-                  <div className="w-12 h-12 rounded-full bg-blue-100 text-primary font-bold flex items-center justify-center mx-auto mb-4 text-lg">
+                  <div className="w-12 h-12 rounded-full bg-amber-100 text-primary font-bold flex items-center justify-center mx-auto mb-4 text-lg">
                     {step.num}
                   </div>
                   <h3 className="font-bold text-primary mb-2">{step.title}</h3>
@@ -135,15 +135,15 @@ export default function MineralExports() {
         </section>
 
         {/* CTA */}
-        <section className="py-20 bg-gradient-to-br from-slate-900 to-blue-900 text-white text-center">
+        <section className="py-20 bg-gradient-to-br from-slate-800 to-amber-900 text-white text-center">
           <div className="container mx-auto px-6">
             <h2 className="text-3xl font-bold mb-6">Request Ilmenite Quote</h2>
-            <p className="text-blue-100 mb-10 max-w-2xl mx-auto">
+            <p className="text-amber-100 mb-10 max-w-2xl mx-auto">
               Contact us for current pricing, availability, and commercial terms for ilmenite shipments.
             </p>
             <Link href="/contact">
               <a>
-                <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-8">
+                <Button className="bg-amber-600 hover:bg-amber-700 rounded-full px-8">
                   Get a Quote
                 </Button>
               </a>

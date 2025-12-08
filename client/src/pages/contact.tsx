@@ -29,7 +29,7 @@ export default function Contact() {
       <Navbar />
       <main className="pt-32">
         {/* Header */}
-        <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+        <section className="py-20 bg-gradient-to-br from-amber-50 to-amber-50">
           <div className="container mx-auto px-6">
             <Link href="/">
               <a className="inline-flex items-center gap-2 text-primary hover:text-primary/80 mb-6">
@@ -101,13 +101,13 @@ export default function Contact() {
                   />
                 </div>
 
-                <div className="bg-blue-50 p-4 rounded-lg border border-blue-100">
+                <div className="bg-amber-50 p-4 rounded-lg border border-amber-100">
                   <p className="text-sm text-slate-600">
                     <strong>Note:</strong> Fields marked with * are required. Our team will review your inquiry and contact you within 2-3 business days.
                   </p>
                 </div>
 
-                <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-white font-semibold py-3 rounded-lg text-base">
+                <Button type="submit" className="w-full bg-amber-600 hover:bg-amber-700 text-white font-semibold py-3 rounded-lg text-base">
                   Submit Inquiry
                 </Button>
               </form>

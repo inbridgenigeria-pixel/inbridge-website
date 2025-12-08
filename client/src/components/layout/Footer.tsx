@@ -2,7 +2,7 @@ import { Link } from "wouter";
 
 export function Footer() {
   return (
-    <footer className="bg-slate-950 text-slate-400 py-10 text-sm">
+    <footer className="bg-slate-900 text-slate-400 py-10 text-sm border-t border-amber-200/10">
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
         <div>
           &copy; {new Date().getFullYear()} Inbridge Nigeria Ltd. All rights reserved.
