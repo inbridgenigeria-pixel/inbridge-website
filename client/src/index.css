@@ -34,42 +34,42 @@
 }
 
 :root {
-  /* Custom Brand Colors derived from Inbridge Logo - Brown/Tan palette */
+  /* Custom Brand Colors derived from #0c3c78 (Primary) and #f7931e (Accent) */
   --background: 0 0% 100%;
-  --foreground: 24 14% 26%; /* #543d31 */
+  --foreground: 210 25% 16%; /* #1f2933 */
 
   --card: 0 0% 100%;
-  --card-foreground: 24 14% 26%;
+  --card-foreground: 210 25% 16%;
 
   --popover: 0 0% 100%;
-  --popover-foreground: 24 14% 26%;
+  --popover-foreground: 210 25% 16%;
 
-  --primary: 24 18% 36%; /* #6b5844 - Brown */
+  --primary: 213 82% 26%; /* #0c3c78 */
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 30 24% 92%; /* #f0e8e0 (BG Light) used as secondary */
-  --secondary-foreground: 24 18% 36%;
+  --secondary: 240 20% 98%; /* #f7f7fb (BG Light) used as secondary */
+  --secondary-foreground: 213 82% 26%;
 
-  --muted: 24 8% 56%; /* #8a7a6f */
-  --muted-foreground: 24 8% 56%;
+  --muted: 220 9% 46%; /* #6b7280 */
+  --muted-foreground: 220 9% 46%;
 
-  --accent: 38 67% 54%; /* #d4a574 - Tan/Gold */
+  --accent: 32 93% 54%; /* #f7931e */
   --accent-foreground: 0 0% 100%;
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 0 0% 98%;
 
-  --border: 24 12% 88%; /* #e3dcd4 */
-  --input: 24 12% 88%;
-  --ring: 24 18% 36%;
+  --border: 220 13% 91%; /* #e5e7eb */
+  --input: 220 13% 91%;
+  --ring: 213 82% 26%;
 
   --radius: 0.625rem; /* 10px */
 
-  --chart-1: 24 20% 50%;
-  --chart-2: 38 67% 54%;
-  --chart-3: 24 18% 36%;
-  --chart-4: 30 45% 60%;
-  --chart-5: 20 35% 55%;
+  --chart-1: 12 76% 61%;
+  --chart-2: 173 58% 39%;
+  --chart-3: 197 37% 24%;
+  --chart-4: 43 74% 66%;
+  --chart-5: 27 87% 67%;
 }
 
 .dark {

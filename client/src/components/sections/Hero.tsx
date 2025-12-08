@@ -13,7 +13,7 @@ export function Hero() {
           alt="Industrial Background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-amber-900/80 via-amber-900/70 to-amber-800/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/80 to-slate-900/70" />
       </div>
 
       <div className="container mx-auto px-6 relative z-10 grid lg:grid-cols-12 gap-12 items-center">
@@ -24,8 +24,11 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
+          <p className="text-sm tracking-[0.2em] uppercase text-blue-200 font-semibold mb-4">
+            Inbridge Nigeria Ltd
+          </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            EPC, Energy Solutions & <span className="text-amber-200">Mineral Exports</span>
+            EPC, Energy Solutions & <span className="text-blue-400">Mineral Exports</span>
           </h1>
           <p className="text-lg text-slate-200 mb-8 max-w-xl leading-relaxed">
             We design and deliver engineering projects, energy infrastructure and reliable mineral
@@ -34,14 +37,14 @@ export function Hero() {
 
           <div className="flex flex-wrap gap-3 mb-8">
             {["EPC & Project Delivery", "Gas & Power Solutions", "Ilmenite & Mineral Exports"].map((tag) => (
-              <span key={tag} className="px-4 py-1.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-sm text-sm text-amber-100">
+              <span key={tag} className="px-4 py-1.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-sm text-sm text-blue-100">
                 {tag}
               </span>
             ))}
           </div>
 
           <div className="flex flex-wrap gap-4 mb-10">
-            <Button size="lg" className="rounded-full text-base px-8 bg-amber-700 hover:bg-amber-800 shadow-lg shadow-amber-900/20">
+            <Button size="lg" className="rounded-full text-base px-8 bg-blue-600 hover:bg-blue-700 shadow-lg shadow-blue-900/20">
               <a href="#contact-cta">Request a Quote</a>
             </Button>
             <Button size="lg" variant="outline" className="rounded-full text-base px-8 border-white/30 text-white hover:bg-white/10 bg-transparent">
@@ -49,7 +52,7 @@ export function Hero() {
             </Button>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm text-amber-100 border-t border-white/10 pt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm text-blue-200 border-t border-white/10 pt-8">
             <div>
               <strong className="block text-white text-lg mb-1">10+ years</strong>
               project delivery experience
