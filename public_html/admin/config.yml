@@ -12,7 +12,7 @@ collections:
     files:
       - label: "Home"
         name: "home"
-        file: "content/pages/home.md"
+        file: "public_html/content/pages"
         fields:
           - { label: "Hero Heading", name: "hero_heading", widget: "string" }
           - { label: "Hero Subheading", name: "hero_subheading", widget: "string" }
